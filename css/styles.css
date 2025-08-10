@@ -493,6 +493,7 @@ flex-basis: calc((100% - 3 * 24px) / 4);
     --color-label: #8e8f99;
     --color-checked-bg: #404bbf;
     --icon-fill-color: #F4F4FD;
+    --link-color: #4d5ae5;
 }
 .backdrop {
     position: fixed;
@@ -677,15 +678,16 @@ fill: #ffffff;
     opacity: 1;
 }
 .form-custom-checkbox-text {
+    display: inline-flex;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     margin: 0;
 }    
-.form-custom-checkbox-link {
-    color: #8e8f99;line-height: 1.3;
+.privacy-policy-link {
+    color: var(--link-color);
+    line-height: 1.3;
     text-decoration: underline;
     text-decoration-skip-ink: none;
-    color: #4d5ae5;
 }
