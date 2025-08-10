@@ -677,14 +677,14 @@ fill: #ffffff;
     border: none;
     opacity: 1;
 }
-.form-custom-checkbox-text {
+/*.form-custom-checkbox-text {
     display: inline-flex;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     margin: 0;
-}    
+}    */
 .privacy-policy-link {
     color: var(--link-color);
     line-height: 1.3;
