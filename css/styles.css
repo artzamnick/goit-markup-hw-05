@@ -489,6 +489,11 @@ flex-basis: calc((100% - 3 * 24px) / 4);
     fill: #fff;
 }
 /* modal window */
+:root {
+    --color-label: #8e8f99;
+    --color-checked-bg: #404bbf;
+    --icon-fill-color: #F4F4FD;
+}
 .backdrop {
     position: fixed;
     top: 0;
@@ -658,12 +663,17 @@ fill: #ffffff;
     display: flex;
     align-items: center;
     gap: 8px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--color-label);
 }
-#field-privacy:checked + .modal-form-checkbox > 
+#user-privacy:checked + .modal-form-checkbox > 
 .form-custom-checkbox {
+    fill: var(--icon-fill-color);
     border-radius: 2px;
-    background-color: #404bbf;
-    border: 1px solid #404bbf;
+    background-color: var(--color-checked-bg);
+    border: none;
     opacity: 1;
 }
 .form-custom-checkbox-text {
