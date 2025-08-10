@@ -465,9 +465,11 @@
         <div class="footer-subscribe">
           <p class="footer-subscribe-title">Subscribe</p>
           <form class="footer-subscribe-form">
+            <label class="footer-subscribe-label" for="email-footer"></label>
             <input
               type="email"
               name="user_email"
+              id="email-footer"
               placeholder="E-mail"
               class="footer-subscribe-input"
               required
@@ -475,7 +477,7 @@
             <button type="submit" class="footer-subscribe-btn">
               Subscribe
               <svg class="footer-subscribe-icon" width="24" height="24">
-                <use href="images/icons.svg#icon-airplane"></use>
+                <use href="./images/icons.svg#icon-airplane"></use>
               </svg>
             </button>
           </form>
@@ -553,10 +555,10 @@
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
-              <p class="form-custom-checkbox-text">
+              <span class="form-custom-checkbox-text">
                 I accept the terms and conditions of the
                 <a class="form-custom-checkbox-link" href="#">Privacy Policy</a>
-              </p>
+              </span>
             </label>
           </div>
           <button class="button button-modal" type="submit" data-modal-open>
