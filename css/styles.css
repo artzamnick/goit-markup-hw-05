@@ -650,7 +650,7 @@ fill: #ffffff;
     justify-content: center;
     width: 16px;
     height: 16px;
-    fill: transparent;;
+    fill: transparent;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
@@ -661,9 +661,6 @@ fill: #ffffff;
     border: none;
 }
 .modal-form-checkbox {
-    display: flex;
-    align-items: center;
-    gap: 8px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -677,14 +674,6 @@ fill: #ffffff;
     border: none;
     opacity: 1;
 }
-/*.form-custom-checkbox-text {
-    display: inline-flex;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    margin: 0;
-}    */
 .privacy-policy-link {
     color: var(--link-color);
     line-height: 1.3;
