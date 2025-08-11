@@ -427,11 +427,6 @@ flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .footer-subscribe {
     margin-left: auto;
-    width: 453px;
-    height: 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
 }
 .footer-subscribe-title {
     align-self: flex-start;
@@ -459,13 +454,16 @@ flex-basis: calc((100% - 3 * 24px) / 4);
     letter-spacing: 0.04em;
 }
 .footer-subscribe-input::placeholder {
-    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #fff;;
 }
 .footer-subscribe-btn {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 16px;
     min-width: 165px;
     height: 40px;
     background-color: #4d5ae5;
@@ -621,7 +619,6 @@ fill: #ffffff;
     position: relative;
 }
 .modal-wrapper-icons svg {
-    padding: 3px 0px;
     position: absolute;
     left: 16px;
     top: 50%;
@@ -648,6 +645,7 @@ fill: #ffffff;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    margin-right: 8px;
     width: 16px;
     height: 16px;
     fill: transparent;
